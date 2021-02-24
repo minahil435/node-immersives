@@ -10,4 +10,4 @@ console.log("Hey " + capitilisedName + "! " + "This is node App which takes your
 
 const nameInitials = capitilisedName[0] + " " + capitilisedName[capitilisedName.indexOf(" ") + 1];
 console.log("These are the initials of your name " + nameInitials);
-console.log("You code immersive email ID is: " + firstName + "." + secondName + "@codeimmersives.com");
+console.log("You code immersive email ID is: " + firstName.toLowerCase() + "." + secondName.toLowerCase() + "@codeimmersives.com");
